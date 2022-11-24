@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/akat_bg"
+    tools:context=".novelAdapFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:fontFamily="@font/montserrat"
+        android:paddingTop="20dp"
+        android:text="NOVEL ADAPTATIONS"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:paddingTop="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/novelkakashi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:paddingBottom="10dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/and_kakashianbu"
+                android:onClick="c_novelkakashi" />
+
+            <ImageView
+                android:id="@+id/novelitachi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:paddingBottom="10dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/and_novelitachi"
+                android:onClick="c_novelitachi" />
+            <ImageView
+                android:id="@+id/novelsasuke"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:paddingBottom="10dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/and_novelsasuke"
+                android:onClick="c_novelsasuke" />
+            <ImageView
+                android:id="@+id/novelshikamarucloud"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:paddingBottom="10dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/and_novelshikamarucloud"
+                android:onClick="c_novelshikamarucloud" />
+            <ImageView
+                android:id="@+id/novelwedding"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:paddingBottom="60dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/and_novelkonohawedding"
+                android:onClick="c_novelwedding" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

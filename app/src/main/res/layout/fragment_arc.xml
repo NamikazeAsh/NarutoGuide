@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ArcFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:fontFamily="@font/montserrat"
+        android:paddingTop="20dp"
+        android:text="-= STORY ARCS =-"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:paddingTop="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/landofwaves"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:paddingBottom="10dp"
+                android:scaleType="fitStart"
+                android:onClick="c_landofwaves"
+                android:src="@drawable/and_landofwaves" />
+
+            <ImageView
+                android:id="@+id/chuninexams"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:paddingBottom="10dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/and_chuninexams"
+                android:onClick="c_chuninexams"/>
+
+            <ImageView
+                android:id="@+id/searchfortsunade"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:paddingBottom="10dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/and_searchfortsunade"
+                android:onClick="c_searchfortsunade"/>
+
+            <ImageView
+                android:id="@+id/sasukerecovery"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:paddingBottom="10dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/and_sasukeretrieval"
+                android:onClick="c_sasukerecovery"/>
+
+            <ImageView
+                android:id="@+id/kazekagerescue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:paddingBottom="10dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/and_kazekagerescue"
+                android:onClick="c_kazekagerescue"/>
+
+            <ImageView
+                android:id="@+id/tenchibridge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:paddingBottom="10dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/and_tenchibridge"
+                android:onClick="c_tenchibridge"/>
+
+            <ImageView
+                android:id="@+id/akatsukisuppression"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:paddingBottom="10dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/and_akatsukisuppression"
+                android:onClick="c_akatsukisuppression"/>
+
+            <ImageView
+                android:id="@+id/itachipursuit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:paddingBottom="10dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/and_itachipursuit"
+                android:onClick="c_itachipursuit"/>
+
+            <ImageView
+                android:id="@+id/taleofjiraiya"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:paddingBottom="10dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/and_taleofjiraiya"
+                android:onClick="c_taleofjiraiya"/>
+
+            <ImageView
+                android:id="@+id/fatedbattle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:paddingBottom="10dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/and_fatedbattle"
+                android:onClick="c_fatedbattleofbrothers"/>
+
+            <ImageView
+                android:id="@+id/painsassault"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:paddingBottom="10dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/and_painsassault"
+                android:onClick="c_painsassault"/>
+
+            <ImageView
+                android:id="@+id/fivekagesummit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:paddingBottom="10dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/and_fivekagesummit"
+                android:onClick="c_fivekagesummit"/>
+
+            <ImageView
+                android:id="@+id/wararc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:paddingBottom="10dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/and_wararc"
+                android:onClick="c_wararc"/>
+
+            <ImageView
+                android:id="@+id/valleyoftheend"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:paddingBottom="60dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/and_valleyoftheend"
+                android:onClick="c_valleyoftheend" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

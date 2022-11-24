@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:title="Arcs"
+        android:id="@+id/arcs"
+        android:icon="@drawable/ic_baseline_location_searching_24"/>
+    <item android:title="Novel Adaptation"
+        android:id="@+id/noveladap"
+        android:icon="@drawable/ic_baseline_menu_book_24"/>
+    <item android:title="Fillers"
+        android:id="@+id/fillers"
+        android:icon="@drawable/ic_baseline_streetview_24"/>
+</menu>
