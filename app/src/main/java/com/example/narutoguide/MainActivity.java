@@ -299,6 +299,9 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.fillers:
                         getSupportFragmentManager().beginTransaction().replace(R.id.flayout,fillersFragment).commit();
                         return true;
+                    case R.id.wallpapers:
+                        Intent wi = new Intent(MainActivity.this,WallpaperActivity.class);
+                        startActivity(wi);
                 }
                 return false;
             }

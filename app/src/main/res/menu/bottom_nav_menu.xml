@@ -13,4 +13,7 @@
     <item android:title="Fillers"
         android:id="@+id/fillers"
         android:icon="@drawable/ic_baseline_streetview_24"/>
+    <item android:title="Wallpapers"
+        android:id="@+id/wallpapers"
+        android:icon="@drawable/ic_baseline_wallpaper_24"/>
 </menu>
